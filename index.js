@@ -9,7 +9,7 @@ const app = new App({
     socketMode: true
 });
 
-app.command("/m-ping", async ({ command, ack, respond}) => {
+app.command("/m-botping", async ({ command, ack, respond}) => {
     const start = Date.now();
     await ack();
     const latency = Date.now() - start;
@@ -26,7 +26,7 @@ app.command("/m-help", async ({ ack, respond }) => {
     await respond({
         text:
         `Available Commands:
-    /m-ping - Check bot latency
+    /m-botping - Check bot latency
     /m-catfact - Shows a random cat fact
     /m-dogfact - Shows a random dog fact
     /m-coinflip (heads/tails) - Plays a game of coinflip

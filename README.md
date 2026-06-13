@@ -1,7 +1,7 @@
 # MBot
 
 
-A slack bot made to run simple commands on HackClub's Slack Workspace.
+MBot is a fun, multi-purpose Slack bot designed to bring daily quotes, animals facts, and minigames directly to your workspace).
 
 List of all commands:
 - /m-botping - Check bot latency
@@ -9,7 +9,10 @@ List of all commands:
 - /m-dogfact - Shows a random dog fact
 - /m-coinflip (heads/tails) - Plays a game of coinflip
 - /m-qotd - Shows a random quote
-### Just type the commands in a channel and the bot will run!
+
+
+  ..and more coming in the future!
+### Just type the commands in a channel on HackClub's Workspace and the bot will run!
 
 The scopes include app_mentions:read, channels:history, chat:write, and commands.
 ![Slack Scopes](https://gist.github.com/user-attachments/assets/b20f577a-58c5-47dc-816c-98ace7b4b11e)

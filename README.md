@@ -1,3 +1,6 @@
+#MBot
+A slack bot made to run simple commands on HackClub's Slack Workspace.
+
 List of all commands:
 - /m-botping - Check bot latency
 - /m-catfact - Shows a random cat fact

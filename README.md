@@ -14,7 +14,7 @@ List of all commands:
   ..and more coming in the future!
 ### To use these commands, go to any channel located in the HackClub Workspace and type any one of the commands listed above!
 
-The scopes include app_mentions:read, channels:history, chat:write, and commands.
+MBot's scopes include app_mentions:read, channels:history, chat:write, and commands. These help the bot functional to its full capacity! It runs using Socket Mode to make local development easier.
 ![Slack Scopes](https://gist.github.com/user-attachments/assets/b20f577a-58c5-47dc-816c-98ace7b4b11e)
 
 
